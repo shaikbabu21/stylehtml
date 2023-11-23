@@ -1,0 +1,98 @@
+.face{
+    border: 3px solid black;
+    height: 300px;
+    width: 300px;
+    border-radius: 200px;
+    background-color: yellow;
+    margin-top: 100px;
+}
+.eye1{
+    border:3px solid black;
+    height: 50px;
+    width: 50px;
+    border-radius: 40px;
+    background-color: white;
+    margin-top: 80px;
+    margin-left: -130px;
+    transition: height 1s,width 1s;
+}
+.eye2{
+    border:3px solid black;
+    height: 50px;
+    width: 50px;
+    border-radius: 40px;
+    background-color: white;
+    margin-top: -39px;
+    margin-left: 130px;
+    transition: height 1s,width 1s;
+}
+.ret1{
+    border:3px solid black;
+    height: 18px;
+    width: 18px;
+    border-radius: 18px;
+    background-color: black;
+    margin-top: 13px;
+    transition: height 1s,width 1s;
+}
+.ret2{
+    border:3px solid black;
+    height: 18px;
+    width: 18px;
+    border-radius: 18px;
+    background-color: black;
+    margin-top: 13px;
+    transition: height 1s,width 1s;
+}
+.mouth{
+    height: 4px;
+    width: 70px;
+    border-radius: 50px 50px 50px 50px;
+    background-color: black;
+    margin-top: 100px;
+    margin-left: -130px;
+    transition: height 1s,width 1s;
+}
+.glass{
+    height: 0px;
+    width: 0px;
+    transition: height 1s,width 1s;
+}
+.face:hover{
+    .mouth{
+        border: 5px solid black;
+    height: 30px;
+    width: 70px;
+    border-radius: 0px 0px 35px 35px;
+    background-color: tomato;
+    
+}
+}
+.face:hover{
+    .eye1{
+    border: solid black;
+    height: 50px;
+    width: 100px;
+    border-radius: 0px 0px 50px 50px;
+    background-color: black;
+}
+}
+.face:hover{
+    .eye2{
+    border: solid black;
+    height: 50px;
+    width: 100px;
+    border-radius: 0px 0px 50px 50px;
+    margin-top: -37.5px;
+    background-color: black;
+}
+}
+.face:hover{
+    .glass{
+        height: 15px;
+        width: 80px;
+        background-color: black;
+        margin-top: -177.5px;
+        margin-left: -130px;
+}
+}
